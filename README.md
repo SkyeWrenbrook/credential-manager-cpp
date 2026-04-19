@@ -2,13 +2,6 @@
 
 A simple command-line password manager written in C++.
 
-## Features
-- Add credentials
-- View all saved credentials
-- Search credentials
-- Delete credentials
-- Menu-driven interface
-
 ## How it works
 The program stores credentials using a 'vector' of objects containing a site, username, and password.
 
@@ -25,7 +18,7 @@ Data is currently stored only during runtime and is not persisted to disk.
 - Managing structured data using C++ vectors
 - Building a menu-driven CLI application
 - Handling user input and its limitations (e.g., issues with spaces)
-- Understanding the importance of secure password storage (e.g., hashing and encryption)
+- Understanding the importance of secure password storage
 - Recognizing the need for hashing/encryption and file persistence
 
 ## Build and Run

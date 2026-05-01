@@ -4,8 +4,7 @@
 This project is part of a larger system exploring how credential data is collected, structured, and stored.
 It focuses on the application layer, where user input is handled and organized before being stored or analyzed.
 
-Related database project:
-[https://github.com/](https://github.com/SkyeWrenbrook/credential-database-sqlite)
+[Related database project:](https://github.com/SkyeWrenbrook/credential-database-sqlite)
 
 ## System Behavior
 The application collects credential data through a CLI interface and structures it into objects containing:

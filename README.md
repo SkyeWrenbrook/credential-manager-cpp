@@ -62,3 +62,5 @@ g++ password-manager.cpp -o password-manager
 - Refactor into a structured class-based design for better scalability and maintainability
 - Integrate with a database layer (SQLite) for long-term storage and querying
 - Add validation and error handling to improve data integrity
+
+These improvements reflect the transition from a simple application prototype to a more secure and scalable system.

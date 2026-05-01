@@ -56,7 +56,9 @@ g++ password-manager.cpp -o password-manager
 - Input is currently handled with `std::cin`, so values with spaces will be split at the first space.
 
 ## Future Improvements
-- Add file I/O to save and load credentials
-- Add a `PasswordManager` class
-- Support input with spaces
-- Add password hashing or encryption
+- add persistent storage (file I/O or database integration) to retain data across sessions
+- improve input handling to support full strings and prevent malformed entries
+- introduce password hashing or encryption to protect stored credentials
+- refactor into a structured class-based design for better scalability and maintainability
+- integrate with a database layer (SQLite) for long-term storage and querying
+- add validation and error handling to improve data integrity

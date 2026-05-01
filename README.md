@@ -1,35 +1,45 @@
-# Password Manager
+# Credential Manager (C++ CLI)
 
-> Educational CLI project demonstrating basic credential management in C++.
+## Overview
+This project is part of a larger system exploring how credential data is collected, structured, and stored.
+It focuses on the application layer, where user input is handled and organized before being stored or analyzed.
 
-## How it works
-The program stores credentials using a 'vector' of objects containing a site, username, and password.
+Related database project:
+[https://github.com/](https://github.com/SkyeWrenbrook/credential-database-sqlite)
 
-Users interact with the system through a menu-driven interface to:
-- add new credentials
-- view stored entries
-- search for specific entries
-- delete credentials
+## System Behavior
+The application collects credential data through a CLI interface and structures it into objects containing:
 
-Data is stored in memory and is lost when the program exits.
+- site
+- username
+- password
+
+These entries are stored in memory using a vector, allowing basic operations such as:
+
+- insertion (adding new credentials)
+- retrieval (viewing stored credentials)
+- filtering (searching for specific entries)
+- deletion
+
+This project demonstrates how application-layer logic organizes and interacts with sensitive data before it is stored.
 
 ## What I Learned
 
-- Managing structured data using C++ vectors
-- Building a menu-driven CLI application
-- Handling user input and its limitations (e.g., issues with spaces)
-- Understanding the importance of secure password storage
-- Recognizing the need for hashing/encryption and file persistence
+- how application-layer logic structures and manages sensitive data
+- how user input limitations can affect data integrity
+- how temporary in-memory storage differs from persistent storage
+- how early design decisions impact future security and scalability
 
 ## Security Notice
 
-This project is for educational purposes only.
+Credentials are stored in plaintext in this version.
 
-Passwords are stored in plaintext and are not encrypted or hashed.
-This makes the application insecure and not suitable for real-world use.
+In a real system, this would introduce significant risk and would require:
+- hashing or encryption
+- secure storage practices
+- proper access controls
 
-This project was built to explore basic programming concepts and to highlight
-the importance of proper credential storage and security practices.
+This highlights how early design decisions affect system security.
 
 ## Build and Run
 Compile with a C++ compiler such as g++:

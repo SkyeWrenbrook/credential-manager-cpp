@@ -63,3 +63,8 @@ g++ password-manager.cpp -o password-manager
 - Add validation and error handling to improve data integrity
 
 These improvements reflect the transition from a simple application prototype to a more secure and scalable system.
+
+
+Copyright © 2026 Rebecca Nyachieo. All rights reserved.
+
+This repository is publicly available for portfolio and educational viewing purposes. No permission is granted to copy, modify, distribute, or commercially use the contents without prior written permission.
